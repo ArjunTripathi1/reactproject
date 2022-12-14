@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.background{
+  background-color: blue;
+}
+
+.size{
+  /* background-color: #061B37; */
+  /* color: white; */
+  margin-top: -17px;
+  /* height: 100px;
+  width: 100px; */
+  /* border-radius: 100px; */
+  /* border: 2px dotted lightblue; */
+  /* color: lightblue; */
+}
+.text{
+  padding: 10px;
+  color: rgb(143, 140, 140);
+  margin: 0px;
+}
+.submit{
+  /* background-color:#061B37; */
+  /* border: 1px solid lightblue; */
+  /* height: 28px; */
+  /* width: 191px; */
+  margin-right: 43px;
+}
+.submit1{
+  background-color:#061B37;
+  border-radius: 10px;
+  height: 35px;
+  width: 93px;
+
+}
+.submit2{
+  /* background-color: #29B6F6; */
+  /* color: white; */
+  /* border-radius: 10px; */
+  margin-right: 22px;
+  height: 35px;
+  width: 93px;
+  margin-left: 46px;
+
+}
+.text1{
+  /* color: rgb(173, 163, 163); */
+  margin: -4px;
+  margin-right: 162px;
+  /* font-size: 14px; */
+}
+.size1{
+  height: 125px;
+  width: 262px;
+
+
+
+}
+.submit1:hover{
+  background-color: #282c34;
+}
+.submit2:hover{
+  background-color: #282c34;
+}
+.size:hover{
+  background-color: #282c34;
+}
+.texte{
+  margin-top: 25px;
+}
